@@ -9,4 +9,4 @@ Link: https://github.com/RyanZade/Challenge-6.git
 ![screenshot of website](./assets/Screenshot.jpg "Screenshot")
 
 RyanZade
-github link: https://github.com/RyanZade/Challenge-6
+github link: https://ryanzade.github.io/Challenge-6/
