@@ -6,7 +6,7 @@ Contains: - HTML - CSS - JavaScript
 
 Link: https://github.com/RyanZade/Challenge-6.git
 
-![screenshot of website](./images/screenshot.PNG "Screenshot")
+![screenshot of website](./assets/Screenshot.jpg "Screenshot")
 
 RyanZade
 github link: https://github.com/RyanZade/Challenge-6
