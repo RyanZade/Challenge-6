@@ -9,13 +9,13 @@
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>OpenWeather Dashboard</title>
+    <title>Weather Dashboard</title>
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="h1-container d-flex translate-middle bg-dark justify-content-center">
-            <h1 class="h1 text-light">OpenWeather Dashboard</h1>
+        <div class="h1-container d-flex bg-light justify-content-center">
+            <h1 class="h1 text-dark">Weather Dashboard</h1>
         </div>
     </header>
 
@@ -28,27 +28,24 @@
                             <div class="row m-0">
                                 <label for="search-input" class="search-label m-0 text-dark">Search for a City:</label>
                             </div>
-                            <!-- search input and button -->
                             <div class="row m-0">
                                 <div class="col-sm-8 p-0 my-auto">
-                                    <input type="text" id="search-input" name="search-input" class="search-input rounded">
+                                    <input type="text" id="search-input" name="search-input" class="search-input">
                                 </div>
                                 <div class="col-sm-4 p-0">
-                                    <button type="submit" class="btn bg-primary rounded search-button">
+                                    <button type="submit" class="btn bg-secondary search-button">
                                         <span class="glyphicon glyphicon-search"></span>
                                     </button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <!-- search history -->
                     <div id="search-history-container" class="row m-0 search-history-container">
   
                     </div>
                 </div>
     
-                <div class="col-sm-8 p-0">
-                    <!-- current weather container -->
+                <div class="col-sm-8 p-0 bg-light">
                     <div id="current-weather-container" class="row d-block">
                         <div class="current-title-container">
                             <h2 id="current-title" class="current-title d-inline"></h2>
@@ -60,7 +57,7 @@
                         <p class="current-uv-index" id="current-uv-index"></p>
                         <p class="current-number rounded" id="current-number"></p>
                     </div>
-                    <!-- 5 day forecast -->
+
                     <div class="row future-forecast-container d-block">
                         <h2 class="future-forecast-title" id="future-forecast-title"></h2>
                         <div id="forecasts-cards-container" class="forecasts-cards-container d-flex justify-content-between">

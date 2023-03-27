@@ -145,7 +145,6 @@ var fiveDayForecastSection = function(cityName) {
 $("#search-form").on("submit", function() {
     event.preventDefault();
     
-    // get city name
     var cityName = $("#search-input").val();
 
     if (cityName === "" || cityName == null) {
