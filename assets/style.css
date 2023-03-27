@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
 }
 
 .h1-container {
-    padding: 4px;
+    padding: 100px;
 }
 
 .form-container {
@@ -13,12 +13,12 @@
 }
 
 .search-label {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 1000;
 }
 
 .search-input {
-    width: 100%;
+    width: 95%;
     height: 40px;
     border-color: rgb(253, 170, 170);
     border-width: thin;
@@ -26,39 +26,40 @@
 }
 
 .search-button {
-    padding: 10px 15px;
+    padding: 10px 75px;
 }
 
 .search-history-container {
-    padding: 10px;
+    padding: 15px;
 }
 
 .past-search {
-    background-color: rgb(0, 0, 0);
+    background-color: saddlebrown;
     border-width: thin;
-    border-color: rgb(252, 252, 252);
-    border-style: solid;
-    border-radius: 3px;
-    margin: 0;
-    text-align: left;
-    width: 350px;
-    height: 45px;
-    line-height: 45px;
-    padding: 0 20px;
-    color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: dotted;
+    border-radius: 15px;
+    margin: 5;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    padding: 15 30px;
+    color: white;
 }
 
 .past-search:hover {
-    background-color: rgb(145, 0, 0);
+    background-color: white;
+    color: black;
 }
 
 .current-weather-container {
-    border-color: rgb(102, 10, 114);
+    border-color: blue;
     border-width: thin 0 thin thin;
     border-style: solid;
-    border-radius: 3px;
-    margin: 20px 0 0 20px;
-    padding: 0 0 12px 0;
+    border-radius: 5px;
+    margin: 30px 0 0 30px;
+    padding-bottom: 15px;
 }
 
 .current-title-container {
@@ -66,7 +67,7 @@
 }
 
 .current-title {
-    font-size: 40px;
+    font-size: 60px;
     margin: 15px 0 20px 20px;
 }
 
@@ -77,7 +78,7 @@
 
 .current-temperature, .current-humidity, .current-wind-speed {
     margin: 15px 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .current-uv-index {
@@ -102,7 +103,7 @@
 }
 
 .severe {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 .future-forecast-container {
